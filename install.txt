@@ -1,0 +1,91 @@
+Intro
+-----
+
+BLOCKSTAR is a tetris clone.  It was compiled using:
+
+g++ 4.6.1
+
+SDL 1.2.14
+SDL_gfx 2.0.22
+SDL_ttf 2.0.9
+
+
+
+
+Requirements
+------------
+
+BLOCKSTAR requires the SDL, SDL_ttf, and SDL_gfx libraries. If they 
+were not included in your installion, you can download them from:
+
+SDL, SDL_ttf:   http://www.libsdl.org/							  
+SDL_gfx:        http://www.ferzkopp.net/joomla/content/view/19/14/
+
+
+BLOCKSTAR runs best with a Super VGA (800 x 600) or higher resolution 
+video adapter and monitor.  BLOCKSTAR may also require up to 8MB of 
+memory and 2MB of hard disk space.
+
+
+
+
+blockstar.cfg
+-------------
+
+This is the configuration file used by BLOCKSTAR.  With it you can
+change the default game window size as well as the font size. Under
+certain conditions, it may also be necessary to lower the FPS value,
+that is, to reduce the number of frames that are rendered every second.
+
+By default, the Frames Per Second is 100, the Square size is 24, and
+font size is 12.  Feel free to change these to values that display the
+game window and font to your liking.
+
+
+
+
+blockstar.cpp blockstar.hpp main.cpp utility.cpp utility.hpp
+------------------------------------------------------------
+
+These are the source and header files used to compile BLOCKSTAR. 
+Besides requiring the appropriate SDL, SDL_ttf, and SDL_gfx libraries
+to build BLOCKSTAR.
+
+
+
+
+Game Play
+---------
+
+To start the game, you will need to execute either BlockStar.exe or 
+blockstar, depending on if your Operating System is Windows or
+Linux.  Once started, the main menu should sppear.  From here you have
+the option of (Q)uitting, starting a new (G)ame, or viewing the (H)igh
+scores.  The parenthesis are to emphasize that you must press those 
+keys to enter a new game, or view the high scores, etc.
+
+Once a new game is started you will notice four status boxes on the 
+right hand side of the game window.  These will display your score, 
+current level, and the number of lines completed.  The next level is 
+reached when you form ten solid horizontal lines.  The very last
+status box displays the upcoming shape, that is, after you have set
+your current shape into place, you can expect the next one to be the
+shape displayed in the bottom status box.
+
+To move the falling tetrominoes, you can use the arroy keys, left,
+right, or down, or the 'a', 'd', or 's' keys.  To rotate the
+tetromino, you can use the up arrow or the 'w' key.
+
+The objective is to form as many sold horizontal lines as you can to 
+reach the next level.  As you go up in levels, you are awarded more 
+points for every solid horizontal you form.  You should also keep in 
+mind that you are awarded more points for forming more solid lines at
+the same time.  For example, forming one line in level one will award
+you 40 points, two lines 100, three 300, and four lines yields 1200 
+points.
+
+The game is over when your tetrominoes reach the top of the game window
+and there is no room to play any more.  At the end of the game you will 
+have the option of saving your score with your three letter initials.
+
+

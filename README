@@ -1,0 +1,60 @@
+
+Legal details
+-------------
+
+BLOCKSTAR 1.02 Copyright 2010-2012 by Martin Wyngaarden.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+
+
+See the file "copying.txt" for details.
+
+
+
+
+General
+-------
+
+Today's date is April 6, 2010.  This is BLOCKSTAR 1.02
+
+BLOCKSTAR is a tetris clone written in platform-independent C++
+
+BLOCKSTAR requires the SDL, SDL_gfx, and SDL_ttf headers and libraries
+to build from source. BLOCKSTAR also requires that SDL, SDL_ttf, and
+SDL_gfx libraries are present at run time.
+
+For compiling instruction, see Makefile.
+
+
+
+History
+-------
+
+December 1, 2010 BLOCKSTAR 1.0, First stable release
+
+December 2, 2010 BLOCKSTAR 1.01, Unexplainable oversight
+
+- It was pointed out to me by Professor Schemm that one of my 
+  tetrominoes was in fact not a tetromino being that it consisted of 
+  5 blocks.  I guess that would make it a pentomino?
+
+April 6, 2012 BLOCKSTAR 1.02, Refactoring, Makefile, small changes to game play
+
+
+Contact me
+----------
+
+You can contact me at wyngaardenm@gmail.com
